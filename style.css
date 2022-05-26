@@ -1,53 +1,56 @@
-body {
-    margin: 0;
-    background-color: white;
-}
-
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-h1 {
-    color: #FFD9F4;
-    font-size: 65px;
-    font-family: 'Segoe Print';
-    text-transform: uppercase;
-    letter-spacing: 2px;
+body {
+    margin: 0;
+    background-color: white;
+    padding: 0;
 }
 
-h2 {
-    background-color: #BFBCBC;
-    margin: 0;
-    padding: 10px;
-    color: #FFD9F4;
-    font-size: 40px;
+/* Name Title */
+h1 {
+    font-size: 65px;
+}
+
+h1, h2, h4 {
     text-align: center;
     font-family: 'Segoe Print';
     text-transform: uppercase;
+    color: #FFD9F4;
+}
+
+h1, h2 {
     letter-spacing: 2px;
+}
+
+h2, h4 {
+    background-color: #BFBCBC;
+    font-size: 40px;
+}
+
+h3, h5 {
+    color: black;
+    font-family: 'Lucida Sans';
+}
+
+/* About Me title */
+h2 {
+    margin: 0;
+    padding: 10px;
 }
 
 h3 {
-    color: black;
     font-size: 25px;
-    font-family: 'Lucida Sans';
 }
 
 h4 {
-    background-color: #BFBCBC;
     padding: 10px;
-    color: #FFD9F4;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Segoe Print';
-    text-transform: uppercase;
 }
 
 h5 {
-    color: black;
     font-size: 20px;
-    font-family: 'Lucida Sans';
 }
 
 /* Contact icon colors */
@@ -58,14 +61,15 @@ h5 {
 /* Image for projects */
 img {
     width: 100%;
+    overflow: hidden;
     height: auto;
 }
 
 /* Home section */
 .info-content {
+    overflow: hidden;
     background-color: #393734;
     text-align: center;
-    line-height: 10px;
     padding: 25px;
     font-size: 35px;
     letter-spacing: 2px;
@@ -139,11 +143,11 @@ hr.rounded {
 }
 
 /* Fit to all screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 650px) {
     .card {
         display: block; 
         margin: auto; 
-        padding: 10px;
+        width: auto;
     }
 }
 
@@ -212,17 +216,17 @@ hr.rounded {
 }
 
 /* Fit to all screen sizes */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 650px) {
     .college-logo-card {
         display: block; 
         margin: auto; 
-        padding: 10px;
+        width: auto;
     }
 
-    .hishschool-logo-card {
+    .highschool-logo-card {
         display: block; 
         margin: auto; 
-        padding: 10px;
+        width: auto;
     }
 }
 
@@ -263,17 +267,17 @@ hr.rounded {
 }
 
 /* Fit to all screen sizes */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 650px) {
     .experience-card {
         display: block; 
         margin: auto; 
-        padding: 10px;
+        width: auto;
     }
 
     .experience2-card {
         display: block; 
         margin: auto; 
-        padding: 10px;
+        width: auto;
     }
 }
 
@@ -314,17 +318,17 @@ hr.rounded {
 }
 
 /* Fit to all screen size */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 650px) {
     .project-card {
         display: block; 
         margin: auto; 
-        padding: 10px;
+        width: auto;
     }
 
     .project2-card {
         display: block; 
         margin: auto; 
-        padding: 10px;
+        width: auto;
     }
 }
 
@@ -365,17 +369,17 @@ hr.rounded {
 }
 
 /* Fit to all screen size */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 650px) {
     .skill-card {
         display: block; 
         margin: auto; 
-        padding: 10px;
+        width: auto;
     }
 
     .tool-card {
         display: block; 
         margin: auto; 
-        padding: 10px;
+        width: auto;
     }
 }
 
