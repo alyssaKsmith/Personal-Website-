@@ -1,0 +1,403 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: #FFD9F4;
+    font-size: 65px;
+    font-family: 'Segoe Print';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    background-color: #BFBCBC;
+    margin: 0;
+    padding: 10px;
+    color: #FFD9F4;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Segoe Print';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: black;
+    font-size: 25px;
+    font-family: 'Lucida Sans';
+}
+
+h4 {
+    background-color: #BFBCBC;
+    padding: 10px;
+    color: #FFD9F4;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Segoe Print';
+    text-transform: uppercase;
+}
+
+h5 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+}
+
+/* Contact icon colors */
+.black-color {
+    color: black;
+}
+
+/* Image for projects */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Home section */
+.info-content {
+    background-color: #393734;
+    text-align: center;
+    line-height: 10px;
+    padding: 25px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.info-content a {
+    text-decoration: none;
+}
+
+/* Top navigation bar */
+.topnav {
+    background-color: #393734;
+    overflow: hidden;
+    width:100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.topnav ul {
+    list-style-type: none;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'MS Gothic';
+}
+
+.topnav a:hover {
+    opacity: 0.5;
+}
+
+/* About Me section */
+.card {
+    width: 45%;
+    display: block; 
+    margin: auto; 
+    margin-top: 55px;
+    margin-bottom: 55px;
+    padding: 0 10px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 10px 16px;
+}
+
+.introduction-info {
+    font-size: 17px;
+    font-family: 'Lucida Sans';
+}
+
+.title {
+    color: grey;
+    font-size: 16px;
+    font-family:'Lucida Sans';
+    font-style: italic;
+}
+
+hr.rounded {
+    border-top: 8px;
+    color: #393734;
+    border-radius: 5px;
+}
+
+/* Fit to all screens */
+@media screen and (max-width: 300px) {
+    .card {
+        display: block; 
+        margin: auto; 
+        padding: 10px;
+    }
+}
+
+/* Resume section download */
+.resume-download {
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family:'Lucida Sans';
+    margin-bottom: 55px;
+}
+
+.download-btn {
+    display: block; 
+    margin: auto; 
+    padding: 10px;
+    border: 5px solid #393734;
+    color: black;
+    border-radius: 35px; 
+    width: 7em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.resume-download a:hover {
+    opacity: 0.5;
+}
+
+/* Education section */
+#education {
+    background-color: white;
+}
+
+.education-content {
+    width: 100%;
+}
+
+.education-column {
+    display: block;
+    margin: auto;
+    width: 35%;
+    margin-bottom: 55px;
+}
+
+/* College info */
+.college-logo-card {
+    text-align: center;
+    margin: 15px; 
+    padding: 15px 15px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* High school info */
+.highschool-logo-card {
+    text-align: center;
+    margin: 15px; 
+    padding: 15px 15px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.education-niu-container {
+    padding: 20px 20px;
+}
+
+.education-bhs-container {
+    padding: 20px 20px;
+}
+
+/* Fit to all screen sizes */
+@media screen and (max-width: 300px) {
+    .college-logo-card {
+        display: block; 
+        margin: auto; 
+        padding: 10px;
+    }
+
+    .hishschool-logo-card {
+        display: block; 
+        margin: auto; 
+        padding: 10px;
+    }
+}
+
+/* Experience section */
+#experience {
+    background-color: white;
+}
+
+.experience-content {
+    width: 100%;
+}
+
+.experience-column {
+    display: block;
+    margin: auto;
+    width: 35%;
+    margin-bottom: 55px;
+}
+
+/* First experience info */
+.experience-card {
+    text-align: center;
+    margin: 15px; 
+    padding: 15px 15px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Second experience info */
+.experience2-card {
+    text-align: center;
+    margin: 15px; 
+    padding: 15px 15px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.experience-container {
+    padding: 20px 20px;
+}
+
+/* Fit to all screen sizes */
+@media screen and (max-width: 300px) {
+    .experience-card {
+        display: block; 
+        margin: auto; 
+        padding: 10px;
+    }
+
+    .experience2-card {
+        display: block; 
+        margin: auto; 
+        padding: 10px;
+    }
+}
+
+/* Project section */
+#project {
+    background-color: white;
+}
+
+.project-content {
+    width: 100%;
+}
+
+.project-column {
+    display: block;
+    margin: auto;
+    width: 35%;
+    margin-bottom: 55px;
+}
+
+/* Porject 1 info */
+.project-card {
+    text-align: center;
+    margin: 15px; 
+    padding: 15px 15px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Project 2 info */
+.project2-card {
+    text-align: center;
+    margin: 15px; 
+    padding: 15px 15px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-container {
+    padding: 20px 20px;
+}
+
+/* Fit to all screen size */
+@media screen and (max-width: 300px) {
+    .project-card {
+        display: block; 
+        margin: auto; 
+        padding: 10px;
+    }
+
+    .project2-card {
+        display: block; 
+        margin: auto; 
+        padding: 10px;
+    }
+}
+
+/* Skill section */
+#skill {
+    background-color: white;
+}
+
+.skill-content {
+    width: 100%;
+}
+
+.skill-column {
+    display: block;
+    margin: auto;
+    width: 20%;
+    margin-bottom: 55px;
+}
+
+/* Language info */
+.skill-card {
+    text-align: center;
+    margin: 15px; 
+    padding: 15px 15px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Tool info */
+.tool-card {
+    text-align: center;
+    margin: 15px; 
+    padding: 15px 15px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.skill-container {
+    padding: 20px 20px;
+}
+
+/* Fit to all screen size */
+@media screen and (max-width: 300px) {
+    .skill-card {
+        display: block; 
+        margin: auto; 
+        padding: 10px;
+    }
+
+    .tool-card {
+        display: block; 
+        margin: auto; 
+        padding: 10px;
+    }
+}
+
+/* Contact info */
+.contact-info {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    letter-spacing: 10px;
+    font-size: 35px;
+}
+
+/* Footer section */
+footer {
+    padding: 5px;
+    background-color: #393734;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'MS Gothic';
+    font-size: 15px;
+}
