@@ -108,6 +108,16 @@ img {
     opacity: 0.5;
 }
 
+/* Fit to all screens */
+@media screen and (max-width: 650px) {
+    .topnav ul {
+        margin: 0;
+        font-size: 5px;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
 /* About Me section */
 .card {
     width: 45%;
@@ -388,7 +398,7 @@ hr.rounded {
     .skill-column {
         display: block;
         margin: auto;
-        width: 75%;
+        width: 55%;
         margin-bottom: 55px;
     }
 }
