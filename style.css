@@ -61,7 +61,6 @@ h5 {
 /* Image for projects */
 img {
     width: 100%;
-    overflow: hidden;
     height: auto;
 }
 
@@ -145,9 +144,7 @@ hr.rounded {
 /* Fit to all screens */
 @media screen and (max-width: 650px) {
     .card {
-        display: block; 
-        margin: auto; 
-        width: auto;
+        width: 75%;
     }
 }
 
@@ -193,16 +190,24 @@ hr.rounded {
 
 /* College info */
 .college-logo-card {
+    width: 85%;
+    display: block; 
+    margin: auto; 
+    margin-top: 55px;
+    margin-bottom: 55px; 
     text-align: center;
-    margin: 15px; 
     padding: 15px 15px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* High school info */
 .highschool-logo-card {
+    width: 85%;
+    display: block; 
+    margin: auto; 
+    margin-top: 55px;
+    margin-bottom: 55px; 
     text-align: center;
-    margin: 15px; 
     padding: 15px 15px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
@@ -217,16 +222,11 @@ hr.rounded {
 
 /* Fit to all screen sizes */
 @media screen and (max-width: 650px) {
-    .college-logo-card {
-        display: block; 
-        margin: auto; 
-        width: auto;
-    }
-
-    .highschool-logo-card {
-        display: block; 
-        margin: auto; 
-        width: auto;
+    .education-column {
+        display: block;
+        margin: auto;
+        width: 75%;
+        margin-bottom: 55px;
     }
 }
 
@@ -248,16 +248,24 @@ hr.rounded {
 
 /* First experience info */
 .experience-card {
+    width: 85%;
+    display: block; 
+    margin: auto; 
+    margin-top: 55px;
+    margin-bottom: 55px; 
     text-align: center;
-    margin: 15px; 
     padding: 15px 15px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Second experience info */
 .experience2-card {
+    width: 85%;
+    display: block; 
+    margin: auto; 
+    margin-top: 55px;
+    margin-bottom: 55px; 
     text-align: center;
-    margin: 15px; 
     padding: 15px 15px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
@@ -268,16 +276,11 @@ hr.rounded {
 
 /* Fit to all screen sizes */
 @media screen and (max-width: 650px) {
-    .experience-card {
-        display: block; 
-        margin: auto; 
-        width: auto;
-    }
-
-    .experience2-card {
-        display: block; 
-        margin: auto; 
-        width: auto;
+    .experience-column {
+        display: block;
+        margin: auto;
+        width: 75%;
+        margin-bottom: 55px;
     }
 }
 
@@ -299,16 +302,24 @@ hr.rounded {
 
 /* Porject 1 info */
 .project-card {
+    width: 85%;
+    display: block; 
+    margin: auto; 
+    margin-top: 55px;
+    margin-bottom: 55px; 
     text-align: center;
-    margin: 15px; 
     padding: 15px 15px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Project 2 info */
 .project2-card {
+    width: 85%;
+    display: block; 
+    margin: auto; 
+    margin-top: 55px;
+    margin-bottom: 55px; 
     text-align: center;
-    margin: 15px; 
     padding: 15px 15px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
@@ -319,16 +330,11 @@ hr.rounded {
 
 /* Fit to all screen size */
 @media screen and (max-width: 650px) {
-    .project-card {
-        display: block; 
-        margin: auto; 
-        width: auto;
-    }
-
-    .project2-card {
-        display: block; 
-        margin: auto; 
-        width: auto;
+    .project-column {
+        display: block;
+        margin: auto;
+        width: 75%;
+        margin-bottom: 55px;
     }
 }
 
@@ -338,7 +344,8 @@ hr.rounded {
 }
 
 .skill-content {
-    width: 100%;
+    display: block;
+    margin: auto;
 }
 
 .skill-column {
@@ -350,16 +357,24 @@ hr.rounded {
 
 /* Language info */
 .skill-card {
+    width: 90%;
+    display: block; 
+    margin: auto; 
+    margin-top: 55px;
+    margin-bottom: 55px; 
     text-align: center;
-    margin: 15px; 
     padding: 15px 15px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Tool info */
 .tool-card {
+    width: 90%;
+    display: block; 
+    margin: auto; 
+    margin-top: 55px;
+    margin-bottom: 55px; 
     text-align: center;
-    margin: 15px; 
     padding: 15px 15px;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
 }
@@ -370,16 +385,11 @@ hr.rounded {
 
 /* Fit to all screen size */
 @media screen and (max-width: 650px) {
-    .skill-card {
-        display: block; 
-        margin: auto; 
-        width: auto;
-    }
-
-    .tool-card {
-        display: block; 
-        margin: auto; 
-        width: auto;
+    .skill-column {
+        display: block;
+        margin: auto;
+        width: 55%;
+        margin-bottom: 55px;
     }
 }
 
