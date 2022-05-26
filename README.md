@@ -5,4 +5,4 @@ The code behind this website is all designed and written by me to give you a use
 
 The languages I used to create this website are HTML and CSS.
 
-To view my webiste click here: 
+To view my webiste click here: https://alyssaksmith.github.io/
